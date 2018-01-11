@@ -12,22 +12,23 @@
 
 <body>
   <div class="w-100 h-100 flex flex-column justify-center items-center relative">
-    <div class="h-40 self-center f1 pv3 b">
+    <div class="h-40 self-center f-6 b">
       Adesso studio!
     </div>
     <div class="h-60 flex flex-column align-center items-center">
-      <div class="f2 pv3">Sì ok ma forse è altrettanto produttivo...</div>
+      <div class="f4 pb3 pt1">Uhm forse, ma non sarebbe altrettanto produttivo...</div>
       <div id="idea-text" class="pv3 f3 dark-blue">---</div>
       </div>
-      <div class="flex w-60 items-center justify-center">
-        <a href="#" id="idea-link" class="pa2 mh2 dark-blue no-underline ba br3" target="_blank">Vai alla pagina!</a>
-        <a href="#" id="another" class="pa2 mh2 dark-blue no-underline ba br3">Oppure...</a>
+      <div class="flex w-60 items-center justify-center flex flex-column">
+        <a href="#" id="idea-link" class="f4 pa2 mv2 dark-blue no-underline ba br3" target="_blank">Proviamo!</a>
+        <a href="#" id="another" class="f5 pa2 mv2 dark-blue no-underline ba br3">Oppure...</a>
       </div>
     </div>
-    <div id="form-container" class="dn absolute w-100 h-100 top-0 left-0 items-center justify-center">
-      <form id="form" class="flex flex-column items-center justify-center w-60 bg-black-50 br4 pa4">
-        <input name="link" class="ma3 pa1 w-40" type="text" placeholder="Il sito che mi consigli" />
-        <input name="text" class="ma3 pa1 w-40" type="text" placeholder="Una descrizione ingannevole" />
+    <div id="form-container" class="dn absolute w-30 right-2 bottom-2 items-center justify-center">
+      <div class="absolute right-1 top-1 pointer white" id="form-close">X</div>
+      <form id="form" class="flex flex-column items-start justify-center w-100 bg-black-50 pa3 br4">
+        <input name="link" class="ma3 pa1 w-90" type="text" placeholder="Il sito che mi consigli" />
+        <input name="text" class="ma3 pa1 w-90" type="text" placeholder="Breve descrizione ingannevole" />
         <input class="ma3 pa1 w-20" type="submit" value="Invia!"  />
       </form>
     </div>
