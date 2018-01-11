@@ -17,7 +17,7 @@ const requestHandler = (request, response) => {
     }
   }, {})
   db.push(params)
-  fs.writeFileSync(DB_NAME, JSON.stringify(db, undefined, 4), 'utf8'}
+  fs.writeFileSync(DB_NAME, JSON.stringify(db, undefined, 4), 'utf8')
   response.end('Grazie!')
 }
 
