@@ -4,6 +4,6 @@ window.ideas = [
   { text: "Visitare una delle più grandi sorgenti di informazioni e dati al MONDO", url: "https://facebook.com/" },
   { text: "Informarmi su quello che, di recente, è diventato uno dei media preferiti dei potenti del mondo", url: "https://twitter.com/" },
   { text: "Accedere alla più grande banca dati di video di corsi e lezioni su tutto lo scibile umano", url: "https://www.youtube.com/" },
-  { text: "Netflix (non serve una scusa)", url: "https://www.netflix.com/" },
-  { text: "La più grande libreria esistente", url: "https://www.amazon.com/" },
+  { text: "Perdere tempo su Netflix (non serve una scusa)", url: "https://www.netflix.com/" },
+  { text: "Fare compere sulla più grande libreria esistente", url: "https://www.amazon.com/" },
 ]

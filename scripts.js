@@ -19,11 +19,11 @@ const submitForm = (form, cb) => async e => {
   e.preventDefault()
   const fullUrl = `${URL}?link=${form.link.value}&text=${form.text.value}`
   const promisedFetch = new Promise((resolve, reject) => {
-    window.fetch(fullUrl).then(resolve).catch(reject)
+    window.fetch(fullUrl).then(res => res.text()).then(resolve).catch(reject)
   })
   const sent = await promisedFetch
-  cb()
   window.alert(sent)
+  cb()
 }
 
 const toggleForm = container => () => {
